@@ -7,9 +7,10 @@ public class ContaBancaria {
     private double saldo;
 
     // Construtor --------------------------------
-    public ContaBancaria(String nome, int numero) {
+    public ContaBancaria(String nome, int numero, String agencia) {
         this.nome = nome;
         this.numero = numero;
+        this.agencia = agencia;
         saldo = 0;
     }
 
@@ -26,6 +27,10 @@ public class ContaBancaria {
         return saldo;
     }
 
+    public String getAgencia() {
+        return agencia;
+    }
+
     // Métodos -----------------------------------
     /**
      *
@@ -40,6 +45,14 @@ public class ContaBancaria {
         saldo += valor;
     }
 
+    /**
+     *
+     * <p>Método responsável pela função de remover o dinheiro da conta.</p>
+     *
+     * @param valor Valor que será sacado da conta.
+     * @author      Mateus Simões Rosa
+     *
+     */
     public void sacar(double valor) {
         if (valor <= saldo) {
             saldo -= valor;
@@ -47,6 +60,14 @@ public class ContaBancaria {
             System.out.println("\n ************************************************** ");
             System.out.println("   Saldo insuficiente...");
             System.out.println(" ************************************************** \n");
+        }
+    }
+
+    public boolean validarConta(int numero, String agencia) {
+        if (this.numero == numero && this.agencia.equals(agencia)) {
+            return true;
+        } else {
+            return false;
         }
     }
 }

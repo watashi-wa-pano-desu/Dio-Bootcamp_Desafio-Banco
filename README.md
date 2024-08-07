@@ -8,5 +8,8 @@ Repositório desenvolvido como parte do desafio da **[DIO](https://web.dio.me)**
 
 O desafio consiste em criar uma aplicação em **Java** que simule o funcionamento de uma conta bancária em um sistema
 
+<h2>Visitantes</h2>
+![Moe-Counter](https://count.getloli.com/get/@pano?theme=gelbooru)
+
 <h2></h2>
 <div align="center">Feiro por <a href="https://github.com/watashi-wa-pano-desu">Pano</a>.</div>

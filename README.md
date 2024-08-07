@@ -14,9 +14,5 @@ Um banco fictício desenvolvido para aplicação no projeto.
 
 Fundado em 1869, após o término da Guerra Boshin e o início da Restauração Meiji, por Hiroshi Tanaka.
 
-<h2>Visitantes</h2>
-
-<img src="https://count.getloli.com/get/@:rebeloniondantotsu" alt=":rebeloniondantotsu" />
-
 <h2></h2>
 <div align="center">Feiro por <a href="https://github.com/watashi-wa-pano-desu">Pano</a>.</div>

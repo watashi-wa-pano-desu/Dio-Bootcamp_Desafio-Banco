@@ -63,6 +63,14 @@ public class ContaBancaria {
         }
     }
 
+    /**
+     *
+     * <p>Método de validação de um usuário do sistema.</p>
+     *
+     * @param numero  Parâmetro do número da conta.
+     * @param agencia Parâmetro do número de agência da conta.
+     * @return        Retorna um bollean para controle de fluxo na classe main.
+     */
     public boolean validarConta(int numero, String agencia) {
         if (this.numero == numero && this.agencia.equals(agencia)) {
             return true;
